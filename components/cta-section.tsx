@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight, MessageCircle } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, MessageCircle } from "lucide-react";
 
 export function CtaSection() {
   return (
@@ -7,8 +7,7 @@ export function CtaSection() {
       <div className="mx-auto max-w-4xl px-6 text-center">
         <h2 className="font-serif text-3xl font-bold text-foreground md:text-5xl text-balance">
           Tu emprendimiento merece{" "}
-          <span className="font-script text-primary">brillar</span>{" "}
-          en redes
+          <span className="font-script text-primary">brillar</span> en redes
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground">
           No dejes que la tecnología te detenga. Inscríbete hoy y empieza a
@@ -20,7 +19,7 @@ export function CtaSection() {
             size="lg"
             className="w-full rounded-full px-10 text-base font-semibold shadow-lg shadow-primary/25 sm:w-auto"
           >
-            <a href="#inscripcion">
+            <a href="https://wa.me/573502783337">
               Inscribirme ahora
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
@@ -43,5 +42,5 @@ export function CtaSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
