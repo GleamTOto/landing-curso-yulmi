@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* #F9F9F9 background */
+    --background: 0 0% 97.6%;
+    /* #6F5F5E foreground */
+    --foreground: 12 8% 40%;
+    /* white cards */
+    --card: 0 0% 100%;
+    --card-foreground: 12 8% 40%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 12 8% 40%;
+    /* #D469A3 primary pink */
+    --primary: 328 52% 62%;
+    --primary-foreground: 0 0% 100%;
+    /* #F8C8DC secondary soft pink */
+    --secondary: 340 71% 88%;
+    --secondary-foreground: 12 8% 40%;
+    /* muted */
+    --muted: 340 30% 95%;
+    --muted-foreground: 12 8% 55%;
+    /* accent */
+    --accent: 340 71% 88%;
+    --accent-foreground: 12 8% 40%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    /* #BDBDBD border */
+    --border: 0 0% 74%;
+    --input: 0 0% 85%;
+    --ring: 328 52% 62%;
+    --chart-1: 328 52% 62%;
+    --chart-2: 340 71% 88%;
+    --chart-3: 12 8% 40%;
+    --chart-4: 0 0% 74%;
+    --chart-5: 0 0% 97.6%;
+    --radius: 0.75rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 12 8% 40%;
+    --sidebar-primary: 328 52% 62%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 340 71% 88%;
+    --sidebar-accent-foreground: 12 8% 40%;
+    --sidebar-border: 0 0% 74%;
+    --sidebar-ring: 328 52% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
