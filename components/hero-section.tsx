@@ -58,7 +58,7 @@ export function HeroSection() {
           <div className="relative mx-auto w-full max-w-md">
             <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl" />
             <Image
-              src="/images/hero-course.jpg"
+              src="/images/yulmi.jpeg"
               alt="Emprendedora aprendiendo marketing digital en su computadora"
               width={500}
               height={500}
